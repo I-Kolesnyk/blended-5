@@ -262,13 +262,12 @@ img {
   justify-content: center;
   padding-left: 30px;
 }
-
-.why-us-titel {
-  margin-top: 5px;
-  margin-bottom: 26px;
-  font-weight: 300;
-  font-size: 38px;
-  line-height: 1.26;
+.why-us-title {
+    margin-top: 5px;
+    margin-bottom: 26px;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
 }
 .why-us-text {
   width: 606px;
