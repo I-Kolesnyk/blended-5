@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+.navigation__link {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: var(--second-text-color);
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  &:hover,
+  &:focus {
+    color: var(--first-text-color);
+    box-shadow: inset 200px 0 0 0 var(--accent-color);
+  }
+}
