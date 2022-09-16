@@ -1,0 +1,22 @@
+.hero__wrapper {
+  display: block;
+  text-align: center;
+
+  padding-top: 225px;
+}
+.hero__title {
+  color: var(--hero-color-text);
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.hero__text {
+  color: var(--hero-color-text);
+  font-size: 22px;
+  line-height: 1.67;
+  text-align: center;
+
+  margin-bottom: 29px;
+}
