@@ -1,0 +1,19 @@
+.callback {
+  background-color: var(--second-bgc);
+}
+.callback__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.callback__form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.callback__text {
+  margin-bottom: 34px;
+  color: var(--first-text-color);
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
