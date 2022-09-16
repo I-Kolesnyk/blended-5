@@ -199,8 +199,6 @@ img {
 
 .about__item {
   font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
   line-height: 1.65;
   text-align: center;
@@ -211,8 +209,6 @@ img {
 
 .about__text {
   font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
   text-align: center;
@@ -241,4 +237,93 @@ img {
 }
 .about__list-element:hover .about__icon {
   transform: scale(1.2);
+}
+
+.team {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.team__top-title {
+  display: block;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.team__title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.team__text {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.team__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+.team__item {
+  flex-basis: calc((100% - 30px) / 3);
+}
+
+.team__img {
+  margin-bottom: 12px;
+}
+
+.team__member-name {
+  color: var(--first-text-color);
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.27;
+  margin-bottom: 12px;
+}
+
+.team__member-position {
+  color: var(--first-text-color);
+  text-align: center;
+  font-size: 18px;
+}
+
+.team__social-web {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+  opacity: 0;
+  transition: opacity 250ms linear;
+}
+.team__item-box:hover .team__social-web, .team__item-box:focus .team__social-web {
+  opacity: 1;
+}
+
+.team__social-link {
+  transition: transform 250ms linear;
+}
+.team__social-link:hover .team__social-icon, .team__social-link:focus .team__social-icon {
+  transform: scale(1.1);
+}
+
+.team__item-box {
+  position: relative;
+}
+
+.team__img {
+  transition: transform 250ms linear;
+}
+.team__item-box:hover .team__img, .team__item-box:focus .team__img {
+  transform: scale(1.02);
 }/*# sourceMappingURL=main.css.map */
