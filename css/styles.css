@@ -327,7 +327,7 @@ img {
 
 /* ====== Section 4 ====== */
 
-.cases-container {
+/* .cases-container {
   margin: 0;
   height: auto;
   display: grid;
@@ -397,7 +397,7 @@ img {
   text-align: center;
   color: var(--text-color);
   margin-bottom: 60px;
-}
+} */
 
 /* ====== Section 4 ====== */
 
@@ -512,7 +512,7 @@ img {
 
 /* ====== Section 6 ====== */
 
-.team {
+/* .team {
   padding-top: 55px;
   padding-bottom: 55px;
 }
@@ -602,7 +602,7 @@ img {
 .thumb:hover .photo-card,
 .thumb:focus .photo-card {
   transform: scale(1.02);
-}
+} */
 
 /* ====== Section 6 ====== */
 
@@ -668,7 +668,7 @@ img {
 
 /* ====== Footer ====== */
 
-.footer-box {
+/* .footer-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -715,5 +715,5 @@ img {
 .icon-name:hover .footer-social-icon,
 .icon-name:focus .footer-social-icon {
   transform: scale(1.1);
-}
+} */
 /* ====== Footer ====== */
