@@ -154,7 +154,7 @@ img {
   margin-bottom: 29px;
 }
 
-.hero-btn {
+/* .hero-btn {
   position: relative;
   color: var(--second-text-color);
   background-color: var(--accent-color);
@@ -167,9 +167,9 @@ img {
 
   border-radius: 5px;
   padding: 10px 30px;
-}
+} */
 
-.hero-btn-icon {
+/* .hero-btn-icon {
   position: absolute;
   top: 50%;
   left: 15px;
@@ -177,18 +177,18 @@ img {
 
   transform: translateY(-50%) scale(0.1);
   opacity: 0;
-}
+} */
 
-.hero-btn:hover .hero-btn-icon,
+/* .hero-btn:hover .hero-btn-icon,
 .hero-btn:focus .hero-btn-icon {
   opacity: 1;
   transform: translateY(-50%) scale(1);
-}
+} */
 
-.hero-btn:hover,
+/* .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--hover-btn-color);
-}
+} */
 /* ======= Navigation ====== */
 
 /* ====== Section 2 ====== */
@@ -265,11 +265,11 @@ img {
   padding-right: 44px;
 }
 .why-us-title {
-    margin-top: 5px;
-    margin-bottom: 26px;
-    font-weight: 300;
-    font-size: 38px;
-    line-height: 1.26;
+  margin-top: 5px;
+  margin-bottom: 26px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
 }
 .why-us-text {
   width: 606px;
@@ -281,7 +281,7 @@ img {
   font-size: 20px;
   line-height: 1.65;
 }
-.button-read-more {
+/* .button-read-more {
   position: relative;
   background-color: var(--accent-color);
   font-size: 18px;
@@ -295,8 +295,8 @@ img {
   background-image: linear-gradient(315deg, #28a745 90%, #28a745 74%);
   z-index: 1;
   text-transform: capitalize;
-}
-.button-read-more:after {
+} */
+/* .button-read-more:after {
   position: absolute;
   content: '';
   width: 100%;
@@ -309,20 +309,19 @@ img {
   background-image: linear-gradient(135deg, #28a745 0%, #ffffff 48%, #28a745 100%);
 
   transition: all 0.3s ease;
-}
-.button-read-more:hover,
+} */
+/* .button-read-more:hover,
 .button-read-more:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
-}
-.button-read-more:hover:after
-.button-read-more:focus:after  {
+} */
+/* .button-read-more:hover:after .button-read-more:focus:after {
   top: 0;
   height: 100%;
 }
 .button-read-more:active {
   top: 2px;
-}
+} */
 
 /* ====== Section 3 ====== */
 
@@ -492,7 +491,7 @@ img {
   transition: all 0.3s ease;
 }
 .post-btn:hover,
-.post-btn:focus  {
+.post-btn:focus {
   color: var(--blog-bgc);
   border-color: var(--blog-bgc);
 }
