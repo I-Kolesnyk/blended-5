@@ -52,9 +52,9 @@ img {
   height: auto;
 }
 
-.accent {
+/* .accent {
   color: var(--accent-color);
-}
+} */
 
 /* .visually-hidden {
     position: absolute;
@@ -102,7 +102,7 @@ img {
   color: var(--first-text-color);
   box-shadow: inset 200px 0 0 0 var(--accent-color);
 } */
-.nav {
+/* .nav {
   background-color: var(--first-text-color);
   background-image: url('../images/hero-bg-img.jpg');
   background-repeat: no-repeat;
@@ -111,14 +111,14 @@ img {
 
   padding-top: 12px;
   padding-bottom: 284px;
-}
+} */
 
-.logo-link {
+/* .logo-link {
   color: var(--second-text-color);
   font-size: 35px;
   line-height: 1.21;
   text-transform: capitalize;
-}
+} */
 
 .header-page {
   padding-left: 22px;

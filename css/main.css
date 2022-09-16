@@ -159,6 +159,27 @@ img {
   box-shadow: inset 200px 0 0 0 var(--accent-color);
 }
 
+.logotype {
+  color: var(--second-text-color);
+  font-size: 35px;
+  line-height: 1.21;
+  text-transform: capitalize;
+}
+
+.logotype--accent {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--first-text-color);
+  background-image: url("../images/hero-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1360px;
+  padding-top: 12px;
+  padding-bottom: 284px;
+}
+
 .hero__wrapper {
   display: block;
   text-align: center;
